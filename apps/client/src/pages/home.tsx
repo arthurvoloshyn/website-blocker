@@ -3,9 +3,9 @@ import { UiTextField } from "@/shared/ui/ui-text-field";
 import { UiSelectField } from "@/shared/ui/ui-select-field";
 import { UiLink } from "@/shared/ui/ui-link";
 import { UiHeader } from "@/shared/ui/ui-header";
-import { ToggleBlockingButton } from "@/features/toggle-blocking/ui/toggle-blocking-button";
+import { ToggleBlockingButton } from "@/features/toggle-blocking";
 import { Profile } from "@/widgets/profile";
-import { useBlockListQuery } from "@/entities/block-list/queries";
+import { useBlockListQuery } from "@/entities/block-list";
 import { AddBlockItemForm, BlockList } from "@/features/block-list";
 
 export function HomePage() {

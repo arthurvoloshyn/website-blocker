@@ -1,4 +1,4 @@
-import { useResetSession } from "@/entities/session/queries";
+import { useResetSession } from "@/entities/session";
 import { authControllerSignOut } from "@/shared/api/generated";
 import { ROUTES } from "@/shared/constants/routes";
 import { useMutation, useQueryClient } from "@tanstack/react-query";

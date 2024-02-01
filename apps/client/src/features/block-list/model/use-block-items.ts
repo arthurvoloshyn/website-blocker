@@ -1,4 +1,4 @@
-import { useBlockListQuery } from "@/entities/block-list/queries";
+import { useBlockListQuery } from "@/entities/block-list";
 import { useDebauncedValue } from "@/shared/lib/react-std";
 import { useState } from "react";
 

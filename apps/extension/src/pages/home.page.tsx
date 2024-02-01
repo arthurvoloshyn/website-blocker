@@ -1,4 +1,4 @@
-import { ToggleBlockingButton } from "@/features/toggle-blocking/ui/toggle-blocking-button";
+import { ToggleBlockingButton } from "@/features/toggle-blocking";
 import { ADMIN_URL } from "@/shared/constants";
 import { createTab } from "@/shared/lib/browser";
 import { UiButton } from "@/shared/ui/ui-button";

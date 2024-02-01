@@ -1,4 +1,4 @@
-import { useSessionQuery } from "@/entities/session/queries";
+import { useSessionQuery } from "@/entities/session";
 import { authControllerGetSessionInfo } from "@/shared/api/generated";
 import { ROUTES } from "@/shared/constants/routes";
 import { UiPageSpinner } from "@/shared/ui/ui-page-spinner";

@@ -1,4 +1,4 @@
-import { useSessionQuery } from "@/entities/session/queries";
+import { useSessionQuery } from "@/entities/session";
 import { SignOutButton } from "@/features/auth";
 
 export function Profile() {

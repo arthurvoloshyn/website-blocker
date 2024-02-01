@@ -1,4 +1,4 @@
-import { useAddBlockItemMutation } from "@/entities/block-list/queries";
+import { useAddBlockItemMutation } from "@/entities/block-list";
 import { AddBlockItemDtoType } from "@/shared/api/generated";
 import { useForm } from "react-hook-form";
 

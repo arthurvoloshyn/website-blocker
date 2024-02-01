@@ -1,4 +1,4 @@
-import { useRemoveBlockItemMutation } from "@/entities/block-list/queries";
+import { useRemoveBlockItemMutation } from "@/entities/block-list";
 import { AddBlockItemDtoType } from "@/shared/api/generated";
 
 export function BlockItem({
