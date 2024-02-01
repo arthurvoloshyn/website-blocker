@@ -1,15 +1,9 @@
-import { UiButton } from "@/shared/ui/ui-button";
-import { UiTextField } from "@/shared/ui/ui-text-field";
-import { UiSelectField } from "@/shared/ui/ui-select-field";
-import { UiLink } from "@/shared/ui/ui-link";
 import { UiHeader } from "@/shared/ui/ui-header";
 import { ToggleBlockingButton } from "@/features/toggle-blocking";
 import { Profile } from "@/widgets/profile";
-import { useBlockListQuery } from "@/entities/block-list";
 import { AddBlockItemForm, BlockList } from "@/features/block-list";
 
 export function HomePage() {
-  const { data } = useBlockListQuery({});
   return (
     <div className={`min-h-screen flex flex-col`}>
       <UiHeader right={<Profile />} />

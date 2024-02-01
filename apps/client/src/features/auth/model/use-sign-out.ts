@@ -1,7 +1,7 @@
 import { useResetSession } from "@/entities/session";
 import { authControllerSignOut } from "@/shared/api/generated";
 import { ROUTES } from "@/shared/constants/routes";
-import { useMutation, useQueryClient } from "@tanstack/react-query";
+import { useMutation } from "@tanstack/react-query";
 import { useRouter } from "next/router";
 
 export function useSignOut() {

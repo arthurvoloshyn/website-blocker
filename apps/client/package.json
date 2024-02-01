@@ -7,6 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "format": "prettier --write .",
     "api:download": "wget http://localhost:3000/api-yaml -O src/shared/api/schema.yaml",
     "api:generate": "orval"
   },
