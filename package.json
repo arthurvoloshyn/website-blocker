@@ -1,0 +1,17 @@
+{
+  "name": "website-blocker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArturW1998/website-blocker.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ArturW1998/website-blocker/issues"
+  },
+  "homepage": "https://github.com/ArturW1998/website-blocker#readme"
+}
