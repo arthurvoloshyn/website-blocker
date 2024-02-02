@@ -1,10 +1,17 @@
 # website-blocker
 
+## To clone
+
+- You'll need to have [git](https://git-scm.com/), [node v16+](https://nodejs.org/en/) and [docker](https://www.docker.com/) installed in
+  your system.
+
+`git clone https://github.com/ArturW1998/website-blocker.git`
+
 ## Run the project
 
 - Copy `.env.example` as `.env` inside `apps/server`
-
 - Replace the values of the environment variables with your own in the `.env` file
+- Run the database with the `npm run db:server` command
 
 ```
 npm install - install dependencies

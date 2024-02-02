@@ -13,6 +13,7 @@
     "start:client": "npm run start --workspace=@website-blocker/client",
     "api:download:client": "npm run api:download --workspace=@website-blocker/client",
     "api:generate:client": "npm run api:generate --workspace=@website-blocker/client",
+    "db:server": "npm run db --workspace=@website-blocker/server",
     "build:server": "npm run server --workspace=@website-blocker/server",
     "start:server": "npm run start --workspace=@website-blocker/server",
     "start:dev:server": "npm run start:dev --workspace=@website-blocker/server",
